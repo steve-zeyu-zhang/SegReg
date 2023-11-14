@@ -360,8 +360,67 @@
       <hr> 
       
       <center><h2> Results </h2> </center>
-      <br>
+
+      <center><h3> Comparative Results </h3> </center>
       <br>
 
+      <center>
+        <img src="./webpage/table1.svg" alt="alt text" style="width: 50%; object-fit: cover; max-width:100%;"></a>
+      </center>
+      <center>
+      <p style="text-align:justify; text-justify:inter-ideograph;width:70%;"><left>
+        The comparative results presented in Table I highlight a notable improvement in our model's performance when compared to the CT-only baseline and other established OAR segmentation models.
+    </left></p>
+  </center>
+      <br> 
+      <br>
+      <center>
+        <img src="./webpage/table2.svg" alt="alt text" style="width: 80%; object-fit: cover; max-width:100%;"></a>
+      </center>
+      <center>
+      <p style="text-align:justify; text-justify:inter-ideograph;width:70%;"><left>
+        The results compared with nnUNet baseline, including a detailed breakdown for each semantic, are presented in Table II. Our model demonstrates a notable performance improvement, especially in small and tiny organs, including the cochlea (Cochlea L/R), anterior/posterior eyeball, lacrimal gland, optic nerves (OpticNrv L/R), and parotid gland. Specifically, there are improvements of 31.56%/26.26%, 32.23%/44.37%, 48.98%/58.08%, 34.84%/46.34%, 38.94%/28.36%, and 40.61%/25.46% in DSC for left and right organs respectively.
+    </left></p>
+  </center>
+      <br> 
+      <br>
+      <center>
+        <img src="./webpage/table3.svg" alt="alt text" style="width: 21%; object-fit: cover; max-width:100%;"></a>
+      </center>
+      <center>
+      <p style="text-align:justify; text-justify:inter-ideograph;width:70%;"><left>
+        In addition, when considering models that also incorporate MRI data, it's worth noting that both MAML and MFM employ a four-fold cross-validation approach on the entire dataset without a separate hold-out test set, we have also conducted experiments with our SegReg model under the same setting. The results presented in Table III demonstrate that our SegReg model continues to outperform two-stream networks, irrespective of the modality fusion architectures used in multi-modal OAR segmentation.
+    </center>
+    <br> 
+    <br>
+    <center><h3> Ablation Studies </h3> </center>
+      <br>
+      <center>
+        <img src="./webpage/table4.svg" alt="alt text" style="width: 60%; object-fit: cover; max-width:100%;"></a>
+      </center>
+      <center>
+      <p style="text-align:justify; text-justify:inter-ideograph;width:70%;"><left>
+        To assess the extent of improvement achieved by the proposed registered MRI in OAR segmentation, we carried out an experiment focusing solely on the registered MRI data. The results in Table IV indicate that even when only using registered MRI, we achieve better performance in semantic classification, with an improvement of 3.55% in mDCS. Despite the geometric fidelity of registered MRI not matching that of the originally annotated CT scans, which has shown in agnostic metrics, the improvement in semantics still demonstrates MRI offers superior localization and contrast in soft tissue for segmentation models compared with CT scans, making it more precisely to distinguish and delineate different OARs. Furthermore, combining the original CT scans with registered MRI leverages the superior soft-tissue contrast of MRI to enhance semantic knowledge, while benefiting from the high geometrical accuracy of CT to improve mask shapes for OAR segmentation. This results in an improvement of 16.78% in mDSC and 18.77% in mIoU.
+    </center>
+    <br> 
+    <br>
+    <center>
+      <img src="./webpage/table5.svg" alt="alt text" style="width: 47%; object-fit: cover; max-width:100%;"></a>
+    </center>
+    <center>
+    <p style="text-align:justify; text-justify:inter-ideograph;width:70%;"><left>
+      We also explore various transformation components of the MRI registration in SegReg, including Translation, Rigid transformation (translation and rotation), Affine transformation (translation, rotation, and scaling), and Elastic transformation (affine and deformable transformation), in comparison to the Elastic Symmetric Normalization. The results in Table V indicate that Elastic Symmetric Normalization, as employed in SegReg, outperforms any other registration method in OAR segmentation.
+  </center>
+    <br> 
+    <br>
+    <center>
+      <img src="./webpage/table6.svg" alt="alt text" style="width: 47%; object-fit: cover; max-width:100%;"></a>
+    </center>
+    <center>
+    <p style="text-align:justify; text-justify:inter-ideograph;width:70%;"><left>
+      Furthermore, we investigated the impact of a two-stream backbone on multi-modal OAR segmentation, comparing it to the vanilla single-stream network. We replaced the nnUNet backbone with the MAML backbone in SegReg, and the performance is presented in VI. The results indicate that the two-stream architecture has minimal impact compared to the significant contribution of registration transformation to overall OAR segmentation performance. Using a single-stream backbone remains a simple yet effective approach for registration segmentation.
+  </center>
+    <br> 
+    <br>
 
 </body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
