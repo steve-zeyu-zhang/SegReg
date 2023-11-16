@@ -307,7 +307,12 @@
                 <center>
                   <br>
                   <span style="font-size:20px">
-                    <a href="./webpage/scholar.bib" target="_blank" type="application/x-bibtex"> [BibTeX]</a>
+                    <a href="javascript:void(0);" onclick="openBibTeX()">[BibTeX]</a>
+                    <script>
+                      function openBibTeX() {
+                        window.open('./webpage/scholar.bib', '_blank');
+                      }
+                    </script>
                   </span>
                 </center>
               </td>
