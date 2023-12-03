@@ -1,17 +1,61 @@
-# SegReg: Segmenting OARs by Registering MR Images and CT Annotations
-Code coming soon.
+# SepNet
+For original repo, see [SepNet](https://github.com/HiLab-git/SepNet/tree/master)
 
-## Citation
+#### Dataset
+
+See [HaN-Seg](https://doi.org/10.1002/mp.16197)
+
+#### Environment
+Pytorch >= 1.4, SimpleITK >= 1.2, scipy >= 1.3.1, nibabel >= 2.5.0, PyTorch = 1.8.1, torchvision = 0.9.1, CUDA = 10.2
+#### GPU
+2 NVIDIA GeForce GTX 1080Ti 11G
+
+#### Docker
 
 ```
-@article{zhang2023segreg,
-  title={SegReg: Segmenting OARs by Registering MR Images and CT Annotations},
-  author={Zhang, Zeyu and Qi, Xuyin and Zhang, Bowen and Wu, Biao and Le, Hien and Jeong, Bora and To, Minh-Son and Hartley, Richard},
-  journal={arXiv preprint arXiv:2311.06956},
-  year={2023}
-}
+docker pull qiyi007/sepnet:3.0
 ```
 
-## Comparative Studies
+#### File Directory
+```
+.
+|-- SepNet_OAR
+|-- DATASET
+    |-- train
+        |-- case_01
+            |-- <your image>.nii.gz
+            |-- <your mask>.nii.gz
+        |-- case_02
+            |-- ...
+        |-- ...
+   
+    |-- valid
+        |-- case_xx
+            |-- ...
 
-- For UaNet, see branch [UaNet](https://github.com/steve-zeyu-zhang/SegReg/tree/UaNet)
+
+```
+
+
+#### Code
+For Preprocessing
+
+```
+cd data_process
+python Preprocess.py
+```
+
+For training, using Adam optimizer, lr = 1e<sup>-3</sup>, batch size = 4, epoch = 400
+
+Change the `data_root` in `config/train.txt` to your data root;
+```
+python train.py
+```
+
+For inference
+
+```
+python Segmentation.py
+```
+Notise the you may need to padding Seg.nii.gz to keep consistent with the shape of your test data. See `padded.py` as an example.
+

@@ -1,0 +1,68 @@
+nohup: ignoring input
+2023-11-01 15:27:58.531604: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-11-01 15:27:58.800986: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/nvidia/lib:/usr/local/nvidia/lib64
+2023-11-01 15:27:58.801038: I tensorflow/compiler/xla/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2023-11-01 15:27:59.626932: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/nvidia/lib:/usr/local/nvidia/lib64
+2023-11-01 15:27:59.627062: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/nvidia/lib:/usr/local/nvidia/lib64
+2023-11-01 15:27:59.627076: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+1.Load parameters
+data net_mode Pnet Pnet
+data data_root /code/Struct_NIIGZ /code/Struct_NIIGZ
+data img_name train.nii.gz train.nii.gz
+data label_name label.nii.gz label.nii.gz
+data label_exist_name label_exist.npy label_exist.npy
+data batch_size 4 4
+data random_scale False False
+data random_rotate False False
+data subdata_shape [16, 120, 120] [16, 120, 120]
+data sublabel_shape [16, 120, 120] [16, 120, 120]
+data test_data_shape [16, 256, 256] [16, 256, 256]
+data test_label_shape [16, 256, 256] [16, 256, 256]
+data label_convert_source [0, 1, 2, 3, 4] [0, 1, 2, 3, 4]
+data label_convert_target [0, 1, 1, 1, 1] [0, 1, 1, 1, 1]
+data zoom False False
+data zoom_factor [0, 1, 1] [0, 1, 1]
+data class_num 31 31
+data k_folder 5 5
+data i_folder 1 1
+data output_feature False False
+data overlap_num 8 8
+network net_type Unet_Separate Unet_Separate
+network net_name Unet_Separate Unet_Separate
+network base_feature_number 24 24
+network compress_feature_number 4 4
+network drop_rate 0.5 0.5
+network dilation 1 1
+network with_bn False False
+network depth False False
+network slice_margin 3 3
+network class_num 31 31
+network input_channel 1 1
+training load_weight True True
+training model_path weights_center_crop/multi_thresh_1/Unet_Separate_4/Unet_Separate_4_24_ath_exp_0.5_0.785.pkl weights_center_crop/multi_thresh_1/Unet_Separate_4/Unet_Separate_4_24_ath_exp_0.5_0.785.pkl
+training learning_rate 1e-3 0.001
+training decay 1e-8 1e-08
+training maximal_epoch 400 400
+training snapshot_epoch 10 10
+training start_iteration 0 0
+training train_step 100 100
+training test_step 100 100
+training print_step 10 10
+training model_pre_trained  None
+training model_save_prefix /code/SepNet/model_weight /code/SepNet/model_weight
+training best_dice 0 0
+2.Load data
+3.Creat model
+Traceback (most recent call last):
+  File "Segmentation.py", line 178, in <module>
+    seg(config_file)
+  File "Segmentation.py", line 65, in seg
+    weight = torch.load(config_train['model_path'], map_location=lambda storage, loc: storage)
+  File "/opt/conda/lib/python3.7/site-packages/torch/serialization.py", line 579, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/opt/conda/lib/python3.7/site-packages/torch/serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/opt/conda/lib/python3.7/site-packages/torch/serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: 'weights_center_crop/multi_thresh_1/Unet_Separate_4/Unet_Separate_4_24_ath_exp_0.5_0.785.pkl'
