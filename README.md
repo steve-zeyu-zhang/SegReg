@@ -1,4 +1,4 @@
-# UaNet_OAR
+# UaNet
 For original repo, see [UaNet](https://github.com/uci-cbcl/UaNet#clinically-applicable-deep-learning-framework-for-organs-at-risk-delineation-in-ct-images)
 
 #### Dataset
