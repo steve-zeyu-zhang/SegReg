@@ -6,6 +6,28 @@
 
 [[arXiv](https://arxiv.org/abs/2311.06956)] [[Webpage](https://steve-zeyu-zhang.github.io/SegReg/)] [[BibTeX](https://steve-zeyu-zhang.github.io/SegReg/webpage/scholar.html)]
 
+> Organ at risk (OAR) segmentation is a critical
+              process in radiotherapy treatment planning such as head and
+              neck tumors. Nevertheless, in clinical practice, radiation oncologists 
+              predominantly perform OAR segmentations manually
+              on CT scans. This manual process is highly time-consuming
+              and expensive, limiting the number of patients who can receive
+              timely radiotherapy. Additionally, CT scans offer lower soft-tissue
+              contrast compared to MRI. Despite MRI providing superior
+              soft-tissue visualization, its time-consuming nature makes it
+              infeasible for real-time treatment planning. To address these
+              challenges, we propose a method called <b>SegReg</b>, which utilizes
+              Elastic Symmetric Normalization for registering MRI to perform
+              OAR segmentation. SegReg outperforms the CT-only baseline
+              by <b>16.78%</b> in mDSC and <b>18.77%</b> in mIoU, showing that it
+              effectively combines the geometric accuracy of CT with the
+              superior soft-tissue contrast of MRI, making accurate automated
+              OAR segmentation for clinical practice become possible.
+>
+> ![pipeline](webpage/pipeline.svg)
+>
+> ![demo](webpage/demo.svg)
+
 Code coming soon.
 
 ## News
