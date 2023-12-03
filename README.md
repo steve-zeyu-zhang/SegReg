@@ -34,6 +34,9 @@
 
 <b>(11/16/2023)</b> &#127881; Our paper has been promoted by <a href="https://wx.zsxq.com/mweb/views/topicdetail/topicdetail.html?topic_id=188418544524512&inviter_id=585252854845544&share_from=ShareToWechat&keyword=1499f4d11 ">CVer</a>
 
+## Hardware
+2 Intel Xeon Platinum 8360Y 2.40GHz CPUs, 8 NVIDIA A100 40G GPUs, and 256GB of RAM
+
 ## Citation
 
 ```
