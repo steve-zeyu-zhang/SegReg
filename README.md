@@ -15,3 +15,4 @@ Code coming soon.
 ## Comparative Studies
 
 - For UaNet, see branch [UaNet](https://github.com/steve-zeyu-zhang/SegReg/tree/UaNet)
+- For SepNet, see branch [SepNet](https://github.com/steve-zeyu-zhang/SegReg/tree/SepNet)
