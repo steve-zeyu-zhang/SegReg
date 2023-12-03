@@ -47,5 +47,5 @@
 
 ## Comparative Studies
 
-- For UaNet, see branch [UaNet](https://github.com/steve-zeyu-zhang/SegReg/tree/UaNet)
-- For SepNet, see branch [SepNet](https://github.com/steve-zeyu-zhang/SegReg/tree/SepNet)
+- For [UaNet](https://doi.org/10.1038/s42256-019-0099-z), see branch [UaNet](https://github.com/steve-zeyu-zhang/SegReg/tree/UaNet)
+- For [SepNet](https://doi.org/10.1016/j.neucom.2021.01.135), see branch [SepNet](https://github.com/steve-zeyu-zhang/SegReg/tree/SepNet)
