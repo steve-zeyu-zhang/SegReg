@@ -6,6 +6,8 @@
 
 <sup>†</sup>Corresponding author
 
+[[arXiv](https://arxiv.org/abs/2311.06956)] [[Webpage](https://steve-zeyu-zhang.github.io/SegReg/)] [[BibTeX](https://steve-zeyu-zhang.github.io/SegReg/webpage/scholar.html)]
+
 Code coming soon.
 
 ## News
