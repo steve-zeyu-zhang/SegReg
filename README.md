@@ -6,7 +6,7 @@
 
 [[Webpage](https://steve-zeyu-zhang.github.io/SegReg/)] [[arXiv](https://arxiv.org/abs/2311.06956)] [[BibTeX](https://steve-zeyu-zhang.github.io/SegReg/webpage/scholar.html)]
 
-> Organ at risk (OAR) segmentation is a critical
+_Organ at risk (OAR) segmentation is a critical
               process in radiotherapy treatment planning such as head and
               neck tumors. Nevertheless, in clinical practice, radiation oncologists 
               predominantly perform OAR segmentations manually
@@ -22,11 +22,11 @@
               by <b>16.78%</b> in mDSC and <b>18.77%</b> in mIoU, showing that it
               effectively combines the geometric accuracy of CT with the
               superior soft-tissue contrast of MRI, making accurate automated
-              OAR segmentation for clinical practice become possible.
->
-> ![pipeline](webpage/pipeline.svg)
->
-> ![demo](webpage/demo.svg)
+              OAR segmentation for clinical practice become possible._
+
+![pipeline](webpage/pipeline.svg)
+
+![demo](webpage/demo.svg)
 
 ### Code coming soon.
 
