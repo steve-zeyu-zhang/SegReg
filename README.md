@@ -4,7 +4,7 @@
 
 <sup>*</sup>Contact: steve.zeyu.zhang@outlook.com     <sup>†</sup>Corresponding author
 
-[[arXiv](https://arxiv.org/abs/2311.06956)] [[Webpage](https://steve-zeyu-zhang.github.io/SegReg/)] [[BibTeX](https://steve-zeyu-zhang.github.io/SegReg/webpage/scholar.html)]
+[[Webpage](https://steve-zeyu-zhang.github.io/SegReg/)] [[arXiv](https://arxiv.org/abs/2311.06956)] [[BibTeX](https://steve-zeyu-zhang.github.io/SegReg/webpage/scholar.html)]
 
 > Organ at risk (OAR) segmentation is a critical
               process in radiotherapy treatment planning such as head and
