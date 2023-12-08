@@ -4,7 +4,7 @@
 
 <sup>*</sup>Contact: steve.zeyu.zhang@outlook.com     <sup>†</sup>Corresponding author
 
-[![Web Page](https://img.shields.io/badge/Web%20Page-SegReg-fedcba?style=flat-square)](https://steve-zeyu-zhang.github.io/SegReg) [![arXiv](https://img.shields.io/badge/arXiv-2311.06956-b31b1b?style=flat-square)](https://arxiv.org/abs/2311.06956) [![BibTeX](https://img.shields.io/badge/BibTeX-SegReg-eeeeee?style=flat-square)](https://steve-zeyu-zhang.github.io/SegReg/webpage/scholar.html)
+[![Web Page](https://img.shields.io/badge/Web%20Page-SegReg-fedcba?style=flat-square)](https://steve-zeyu-zhang.github.io/SegReg) [![arXiv](https://img.shields.io/badge/arXiv-2311.06956-b31b1b?style=flat-square)](https://arxiv.org/abs/2311.06956) [![BibTeX](https://img.shields.io/badge/BibTeX-Citation-eeeeee?style=flat-square)](https://steve-zeyu-zhang.github.io/SegReg/webpage/scholar.html)
 
 
 _Organ at risk (OAR) segmentation is a critical
