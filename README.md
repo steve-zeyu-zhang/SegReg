@@ -1,8 +1,8 @@
 # SegReg: Segmenting OARs by Registering MR Images and CT Annotations
 
-[Zeyu Zhang](https://steve-zeyu-zhang.github.io)<sup>*</sup>, [Xuyin Qi](https://www.linkedin.com/in/xuyin-q-29672524a/), [Bowen Zhang](https://www.adelaide.edu.au/directory/b.zhang), [Biao Wu](https://scholar.google.com/citations?user=Y3SBBWMAAAAJ&hl=en), [Hien Le](https://iconcancercentre.com.au/doctor/hien-le), [Bora Jeong](https://www.linkedin.com/in/bora-jeong-5a3177231/), [Minh-son To](https://www.flinders.edu.au/people/minhson.to), [Richard Hartley](https://users.cecs.anu.edu.au/~hartley/)<sup>†</sup>
+[Zeyu Zhang](https://steve-zeyu-zhang.github.io)<sup>*</sup>, [Xuyin Qi](https://www.linkedin.com/in/xuyin-q-29672524a/), [Bowen Zhang](https://www.adelaide.edu.au/directory/b.zhang), [Biao Wu](https://scholar.google.com/citations?user=Y3SBBWMAAAAJ&hl=en), [Hien Le](https://iconcancercentre.com.au/doctor/hien-le), [Bora Jeong](https://www.linkedin.com/in/bora-jeong-5a3177231/), [Minh-son To](https://www.flinders.edu.au/people/minhson.to), [Richard Hartley](https://users.cecs.anu.edu.au/~hartley/)<sup>✉</sup>
 
-<sup>*</sup>Contact: steve.zeyu.zhang@outlook.com     <sup>†</sup>Corresponding author
+<sup>*</sup>Contact: steve.zeyu.zhang@outlook.com
 
 [![Web Page](https://img.shields.io/badge/Web%20Page-Demo-fedcba?style=flat-square)](https://steve-zeyu-zhang.github.io/SegReg) [![arXiv](https://img.shields.io/badge/arXiv-2311.06956-b31b1b?style=flat-square)](https://arxiv.org/abs/2311.06956) [![BibTeX](https://img.shields.io/badge/BibTeX-Citation-eeeeee?style=flat-square)](https://steve-zeyu-zhang.github.io/SegReg/webpage/scholar.html)
 
