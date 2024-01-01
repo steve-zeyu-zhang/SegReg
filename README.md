@@ -49,7 +49,7 @@ python Preprocess.py
 
 ### Training
 
-using Adam optimizer, lr = 1e<sup>-3</sup>, batch size = 4, epoch = 400
+using Adam optimizer, lr = 1e-3, batch size = 4, epoch = 400
 
 Change the `data_root` in `config/train.txt` to your data root;
 ```
