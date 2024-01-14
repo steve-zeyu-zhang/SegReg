@@ -58,7 +58,7 @@ python train.py
 
 ### Inference
 
-Please find checkpoint [here](https://github.com/steve-zeyu-zhang/SegReg/releases/tag/SepNet_HaN-Seg_bs4_epoch400), you can unzip it to root directory.
+Please find checkpoint [here](https://github.com/steve-zeyu-zhang/SegReg/releases/download/SepNet_HaN-Seg_bs4_epoch400/SepNet_HaN-Seg_bs4_epoch400.zip), you can unzip it to root directory.
 
 ```
 python Segmentation.py
