@@ -33,7 +33,7 @@ _Organ at risk (OAR) segmentation is a critical
 
 ## News
 
-<b>(02/07/2024)</b> Please see our latest work: <a href="https://steve-zeyu-zhang.github.io/Awesome-3D-Medical-Imaging-Segmentation/">3D Medical Imaging Segmentation: A Comprehensive Survey</a> for latest updates on 3D medical imaging segmentation.
+<b>(02/07/2024)</b> 👉 Please see our latest work: <a href="https://steve-zeyu-zhang.github.io/Awesome-3D-Medical-Imaging-Segmentation/">3D Medical Imaging Segmentation: A Comprehensive Survey</a> for latest updates on 3D medical imaging segmentation.
 
 <b>(11/16/2023)</b> &#127881; Our paper has been promoted by <a href="https://wx.zsxq.com/mweb/views/topicdetail/topicdetail.html?topic_id=188418544524512&inviter_id=585252854845544&share_from=ShareToWechat&keyword=1499f4d11 ">CVer</a>
 
