@@ -1,4 +1,4 @@
-<div align="center"><h1> SegReg: Segmenting OARs by Registering MR Images and CT Annotations <br><sub><sup><a href=""><b>Under Review</b></a></sup></sub> </h1>
+<div align="center"><h1> SegReg: Segmenting OARs by Registering MR Images and CT Annotations <br><sub><sup><a href="https://biomedicalimaging.org/2024/"><b>ISBI 2024</b></a></sup></sub> </h1>
 
 
 
