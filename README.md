@@ -59,3 +59,8 @@ _Organ at risk (OAR) segmentation is a critical
 
 - For [UaNet](https://doi.org/10.1038/s42256-019-0099-z), see branch [UaNet](https://github.com/steve-zeyu-zhang/SegReg/tree/UaNet)
 - For [SepNet](https://doi.org/10.1016/j.neucom.2021.01.135), see branch [SepNet](https://github.com/steve-zeyu-zhang/SegReg/tree/SepNet)
+- 
+## Ack
+
+- [nnU-Net: A Self-Configuring Method for Deep Learning-based Biomedical Image Segmentation](https://github.com/MIC-DKFZ/nnUNet/tree/nnunetv1)
+- [ANTsPy: Advanced Normalization Tools in Python](https://github.com/ANTsX/ANTsPy)
