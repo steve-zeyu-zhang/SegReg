@@ -63,5 +63,5 @@ _Organ at risk (OAR) segmentation is a critical
 
 ## Acknowledgments
 
-- [nnU-Net: A Self-Configuring Method for Deep Learning-based Biomedical Image Segmentation](https://github.com/MIC-DKFZ/nnUNet/tree/nnunetv1)
 - [ANTsPy: Advanced Normalization Tools in Python](https://github.com/ANTsX/ANTsPy)
+- [nnU-Net: A Self-Configuring Method for Deep Learning-based Biomedical Image Segmentation](https://github.com/MIC-DKFZ/nnUNet/tree/nnunetv1)
