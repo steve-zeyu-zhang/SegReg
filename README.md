@@ -71,6 +71,10 @@ File directories as follows
 │   │   │   ├── Task001_<TASK_ID>
 │   │   │   │   ├── dataset.json
 │   │   │   │   ├── imagesTr
+│   │   │   │   │   ├── case_01_0000.nii.gz
+│   │   │   │   │   ├── case_01_0001.nii.gz
+│   │   │   │   │   ├── case_02_0000.nii.gz
+│   │   │   │   │   ├── case_02_0001.nii.gz
 │   │   │   │   ├── imagesTs
 │   │   │   │   ├── inferTs
 │   │   │   │   ├── labelsTr
