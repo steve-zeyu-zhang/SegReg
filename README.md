@@ -56,6 +56,29 @@ _Organ at risk (OAR) segmentation is a critical
 
 ## Environment
 
+## Dataset
+
+For dataset, see  https://han-seg2023.grand-challenge.org/
+
+File directories as follows
+
+```.
+├── DATASET
+│   ├── nnUNet_preprocessed
+│   ├── nnUNet_raw
+│   │   ├── nnUNet_cropped_data
+│   │   └── nnUNet_raw_data
+│   │   │   ├── Task001_<TASK_ID>
+│   │   │   │   ├── dataset.json
+│   │   │   │   ├── imagesTr
+│   │   │   │   ├── imagesTs
+│   │   │   │   ├── inferTs
+│   │   │   │   ├── labelsTr
+│   │   │   │   └── labelsTs
+│   └── nnUNet_trained_models
+└── nnUNet
+```
+
 ## Registration 
 
 ```
@@ -82,6 +105,7 @@ For transformation, see https://antspy.readthedocs.io/en/latest/registration.htm
 
 - [ANTsPy: Advanced Normalization Tools in Python](https://github.com/ANTsX/ANTsPy)
 - [nnU-Net: A Self-Configuring Method for Deep Learning-based Biomedical Image Segmentation](https://github.com/MIC-DKFZ/nnUNet/tree/nnunetv1)
+- [HaN-Seg: The head and neck organ-at-risk CT and MR segmentation dataset](https://han-seg2023.grand-challenge.org/)
 
 Also thanks to the works we used in comparative studies:
 - [UaNet: Clinically applicable deep learning framework for organs at risk delineation in CT images](https://github.com/uci-cbcl/UaNet)
