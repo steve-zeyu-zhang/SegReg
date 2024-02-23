@@ -59,6 +59,7 @@ _Organ at risk (OAR) segmentation is a critical
 For docker container:
 
 ```
+docker pull stevezeyuzhang/colab:1.7.1
 ```
 
 For dependencies:
