@@ -62,6 +62,8 @@ _Organ at risk (OAR) segmentation is a critical
 python register.py <INSTANCE_NUMBER> <TRANSFORMATION>
 ```
 
+For transformation, see https://antspy.readthedocs.io/en/latest/registration.html
+
 ## Segmentation
 
 ### Data Preprocessing
