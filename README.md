@@ -86,27 +86,28 @@ For dataset, see  https://han-seg2023.grand-challenge.org/
 
 File directories as follows
 
-```.
-├── DATASET
-│   ├── nnUNet_preprocessed
-│   ├── nnUNet_raw
-│   │   ├── nnUNet_cropped_data
-│   │   └── nnUNet_raw_data
-│   │   │   ├── Task001_<TASK_ID>
-│   │   │   │   ├── dataset.json
-│   │   │   │   ├── imagesTr
-│   │   │   │   │   ├── case_01_0000.nii.gz
-│   │   │   │   │   ├── case_01_0001.nii.gz
-│   │   │   │   │   ├── case_02_0000.nii.gz
-│   │   │   │   │   ├── case_02_0001.nii.gz
-│   │   │   │   ├── imagesTs
-│   │   │   │   ├── inferTs
-│   │   │   │   ├── labelsTr
-│   │   │   │   │   ├── case_01.nii.gz
-│   │   │   │   │   ├── case_02.nii.gz
-│   │   │   │   └── labelsTs
-│   └── nnUNet_trained_models
-└── nnUNet
+```
+├── SegReg
+│   ├── DATASET
+│   │   ├── nnUNet_preprocessed
+│   │   ├── nnUNet_raw
+│   │   │   ├── nnUNet_cropped_data
+│   │   │   └── nnUNet_raw_data
+│   │   │   │   ├── Task001_<TASK_ID>
+│   │   │   │   │   ├── dataset.json
+│   │   │   │   │   ├── imagesTr
+│   │   │   │   │   │   ├── case_01_0000.nii.gz
+│   │   │   │   │   │   ├── case_01_0001.nii.gz
+│   │   │   │   │   │   ├── case_02_0000.nii.gz
+│   │   │   │   │   │   ├── case_02_0001.nii.gz
+│   │   │   │   │   ├── imagesTs
+│   │   │   │   │   ├── inferTs
+│   │   │   │   │   ├── labelsTr
+│   │   │   │   │   │   ├── case_01.nii.gz
+│   │   │   │   │   │   ├── case_02.nii.gz
+│   │   │   │   │   └── labelsTs
+│   │   └── nnUNet_trained_models
+│   └── nnUNet
 ```
 
 ## Registration 
