@@ -31,7 +31,6 @@ _Organ at risk (OAR) segmentation is a critical
 
 ![demo](webpage/demo.svg)
 
-### Code coming soon.
 
 ## News
 
@@ -55,11 +54,21 @@ _Organ at risk (OAR) segmentation is a critical
 ## Hardware
 2 Intel Xeon Platinum 8360Y 2.40GHz CPUs, 8 NVIDIA A100 40G GPUs, and 256GB of RAM
 
+## Envi
+
 ## Registration 
 
 ```
 python register.py <INSTANCE_NUMBER> <TRANSFORMATION>
 ```
+
+## Segmentation
+
+### Data Preprocessing
+
+### Training
+
+### Inferencing
 
 ## Comparative Studies
 
