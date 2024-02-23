@@ -55,6 +55,12 @@ _Organ at risk (OAR) segmentation is a critical
 ## Hardware
 2 Intel Xeon Platinum 8360Y 2.40GHz CPUs, 8 NVIDIA A100 40G GPUs, and 256GB of RAM
 
+## Registration 
+
+```
+python register.py <INSTANCE_NUMBER> <TRANSFORMATION>
+```
+
 ## Comparative Studies
 
 - For [UaNet](https://doi.org/10.1038/s42256-019-0099-z), see branch [UaNet](https://github.com/steve-zeyu-zhang/SegReg/tree/UaNet)
