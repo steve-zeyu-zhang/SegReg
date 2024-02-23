@@ -65,3 +65,9 @@ _Organ at risk (OAR) segmentation is a critical
 
 - [ANTsPy: Advanced Normalization Tools in Python](https://github.com/ANTsX/ANTsPy)
 - [nnU-Net: A Self-Configuring Method for Deep Learning-based Biomedical Image Segmentation](https://github.com/MIC-DKFZ/nnUNet/tree/nnunetv1)
+
+Also thanks to the works we used in comparative studies:
+- [UaNet: Clinically applicable deep learning framework for organs at risk delineation in CT images](https://github.com/uci-cbcl/UaNet)
+- [SepNet: Automatic segmentation of organs-at-risk from head-and-neck CT using separable convolutional neural network with hard-region-weighted loss](https://github.com/HiLab-git/SepNet)
+- [MAML: Modality-aware Mutual Learning for Multi-modal Medical Image Segmentation](https://github.com/YaoZhang93/MAML)
+
