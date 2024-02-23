@@ -78,6 +78,8 @@ File directories as follows
 │   │   │   │   ├── imagesTs
 │   │   │   │   ├── inferTs
 │   │   │   │   ├── labelsTr
+│   │   │   │   │   ├── case_01.nii.gz
+│   │   │   │   │   ├── case_02.nii.gz
 │   │   │   │   └── labelsTs
 │   └── nnUNet_trained_models
 └── nnUNet
