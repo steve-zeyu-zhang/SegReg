@@ -158,6 +158,10 @@ nnUNet_predict -i /code/SegReg/DATASET/nnUNet_raw/nnUNet_raw_data/Task001_<TASK_
 - For [UaNet](https://doi.org/10.1038/s42256-019-0099-z), see branch [UaNet](https://github.com/steve-zeyu-zhang/SegReg/tree/UaNet)
 - For [SepNet](https://doi.org/10.1016/j.neucom.2021.01.135), see branch [SepNet](https://github.com/steve-zeyu-zhang/SegReg/tree/SepNet)
 
+## Ablation Studies
+
+- For [MAML](https://doi.org/10.1007/978-3-030-87193-2_56), see branch [MAML](https://github.com/steve-zeyu-zhang/SegReg/tree/MAML)
+
 
 ## Acknowledgments
 
