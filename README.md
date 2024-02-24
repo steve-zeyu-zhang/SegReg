@@ -81,13 +81,13 @@ pip install -e .
 ```
 
 ```
-export nnUNet_raw_data_base="/code/nnUNetFrame/DATASET/nnUNet_raw"
+export nnUNet_raw_data_base="/code/SegReg/DATASET/nnUNet_raw"
 ```
 ```
-export nnUNet_preprocessed="/code/nnUNetFrame/DATASET/nnUNet_preprocessed" 
+export nnUNet_preprocessed="/code/SegReg/DATASET/nnUNet_preprocessed" 
 ```
 ```
-export RESULTS_FOLDER="/code/nnUNetFrame/DATASET/nnUNet_trained_models" 
+export RESULTS_FOLDER="/code/SegReg/DATASET/nnUNet_trained_models" 
 ```
 ```
 source /root/.bashrc 
@@ -106,7 +106,7 @@ File directories as follows
 │   │   ├── nnUNet_raw
 │   │   │   ├── nnUNet_cropped_data
 │   │   │   └── nnUNet_raw_data
-│   │   │   │   ├── Task001_<TASK_ID>
+│   │   │   │   ├── Task001_<TASK_NAME>
 │   │   │   │   │   ├── dataset.json
 │   │   │   │   │   ├── imagesTr
 │   │   │   │   │   │   ├── case_01_0000.nii.gz
@@ -135,9 +135,21 @@ For transformation, see https://antspy.readthedocs.io/en/latest/registration.htm
 
 ### Data Preprocessing
 
+```
+nnUNet_plan_and_preprocess -t <TASK_ID>
+```
+
 ### Training
 
+```
+nnUNet_train 3d_fullres nnUNetTrainerV2 <TASK_ID> <FOLD>
+```
+
 ### Inferencing
+
+```
+nnUNet_predict -i /code/SegReg/DATASET/nnUNet_raw/nnUNet_raw_data/Task001_<TASK_NAME>/imagesTs -o /code/SegReg/DATASET/nnUNet_raw/nnUNet_raw_data/Task001_<TASK_NAME>/inferTs -t <TASK_ID> -m 3d_fullres -f <FOLD> -chk model_best
+```
 
 ## Comparative Studies
 
