@@ -80,6 +80,18 @@ cd SegReg/nnUNet
 pip install -e .
 ```
 
+```
+export nnUNet_raw_data_base="/code/nnUNetFrame/DATASET/nnUNet_raw"
+```
+```
+export nnUNet_preprocessed="/code/nnUNetFrame/DATASET/nnUNet_preprocessed" 
+```
+```
+export RESULTS_FOLDER="/code/nnUNetFrame/DATASET/nnUNet_trained_models" 
+```
+```
+source /root/.bashrc 
+```
 
 ## Dataset
 
