@@ -82,11 +82,7 @@ pip install -e .
 
 ```
 export nnUNet_raw_data_base="/code/SegReg/DATASET/nnUNet_raw"
-```
-```
 export nnUNet_preprocessed="/code/SegReg/DATASET/nnUNet_preprocessed" 
-```
-```
 export RESULTS_FOLDER="/code/SegReg/DATASET/nnUNet_trained_models" 
 ```
 ```
