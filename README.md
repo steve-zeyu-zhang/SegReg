@@ -22,11 +22,7 @@ pip install -e .
 
 ```
 export nnUNet_raw_data_base="/code/MAMLFrame/DATASET/nnUNet_raw"
-```
-```
 export nnUNet_preprocessed="/code/MAMLFrame/DATASET/nnUNet_preprocessed" 
-```
-```
 export RESULTS_FOLDER="/code/MAMLFrame/DATASET/nnUNet_trained_models" 
 ```
 ```
