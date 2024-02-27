@@ -143,7 +143,7 @@ nnUNet_train 3d_fullres nnUNetTrainerV2 <TASK_ID> <FOLD>
 
 ### Inferencing
 
-You can train your own model or find our checkpoint which use last 4 for evaluation [here](https://github.com/steve-zeyu-zhang/SegReg/releases/download/SegReg/segreg_model_best.model).
+You can train your own model or find our checkpoint [here](https://github.com/steve-zeyu-zhang/SegReg/releases/download/SegReg/segreg_model_best.model).
 
 ```
 nnUNet_predict -i /code/SegReg/DATASET/nnUNet_raw/nnUNet_raw_data/Task001_<TASK_NAME>/imagesTs -o /code/SegReg/DATASET/nnUNet_raw/nnUNet_raw_data/Task001_<TASK_NAME>/inferTs -t <TASK_ID> -m 3d_fullres -f <FOLD> -chk model_best
