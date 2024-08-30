@@ -43,11 +43,13 @@ _Organ at risk (OAR) segmentation is a critical
 ## Citation
 
 ```
-@article{zhang2023segreg,
-  title={SegReg: Segmenting OARs by Registering MR Images and CT Annotations},
-  author={Zhang, Zeyu and Qi, Xuyin and Zhang, Bowen and Wu, Biao and Le, Hien and Jeong, Bora and To, Minh-Son and Hartley, Richard},
-  journal={arXiv preprint arXiv:2311.06956},
-  year={2023}
+@inproceedings{zhang2024segreg,
+  title={Segreg: Segmenting oars by registering mr images and ct annotations},
+  author={Zhang, Zeyu and Qi, Xuyin and Zhang, Bowen and Wu, Biao and Le, Hien and Jeong, Bora and Liao, Zhibin and Liu, Yunxiang and Verjans, Johan and To, Minh-Son and others},
+  booktitle={2024 IEEE International Symposium on Biomedical Imaging (ISBI)},
+  pages={1--5},
+  year={2024},
+  organization={IEEE}
 }
 ```
 
