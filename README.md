@@ -171,3 +171,5 @@ Also thanks to the works we used in comparative studies:
 - [SepNet: Automatic segmentation of organs-at-risk from head-and-neck CT using separable convolutional neural network with hard-region-weighted loss](https://github.com/HiLab-git/SepNet)
 - [MAML: Modality-aware Mutual Learning for Multi-modal Medical Image Segmentation](https://github.com/YaoZhang93/MAML)
 
+We would also like to express our sincere gratitude to [Dr. Yang Zhao](https://yangyangkiki.github.io/) for her genuine support of this work.
+
